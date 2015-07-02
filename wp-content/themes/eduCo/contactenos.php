@@ -22,7 +22,7 @@ Template Name: Contáctenos
 			<?php the_content(); ?>
 		</article>
 		<article class="container_contactenos_form">
-			<h4>Reciba una llamada de un consultor</h4>
+			<!-- <h4>Reciba una llamada de un consultor</h4> -->
 			<!-- Formulario -->
 			<?php if ( is_active_sidebar( 'formulario-contacto' ) ) : ?>
 				<?php dynamic_sidebar( 'formulario-contacto' ); ?>
