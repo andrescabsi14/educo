@@ -19,10 +19,9 @@ Template Name: Horarios Cursos Presenciales
 
 	<section class="main-content wrapcont content">
 		<div class="content">
-			<?php the_content(); ?>
 
 
-		<div class="table" style="display: none;">
+		<div class="table">
 
 
 			<!-- HORARIO A
