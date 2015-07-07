@@ -30,7 +30,7 @@ Template Name: Horarios Cursos Presenciales
 			<h2>Horario A</h2>
 			<strong><?php the_field( "horario_a_-_horas" ); ?></strong>
 
-				<table style="height: 122px; border-color: #f5f5f5; font-size: 12px; background-color: #efefef;" border="1" width="100%" cellspacing="0">
+				<table style="height: 122px; border-color: #f5f5f5; font-size: 12px; background-color: #efefef;  margin-top: 20px;" border="1" width="100%" cellspacing="0">
 				<tbody>
 				<tr>
 				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>Solo Básico</strong></span></td>
@@ -259,7 +259,7 @@ Template Name: Horarios Cursos Presenciales
 			<h2>Horario B</h2>
 			<strong><?php the_field( "horario_a_-_horas_copy" ); ?></strong>
 
-				<table style="height: 122px; border-color: #f5f5f5; font-size: 12px; background-color: #efefef;" border="1" width="100%" cellspacing="0">
+				<table style="height: 122px; border-color: #f5f5f5; font-size: 12px; background-color: #efefef;  margin-top: 20px;" border="1" width="100%" cellspacing="0">
 				<tbody>
 				<tr>
 				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>Solo Básico</strong></span></td>
@@ -487,7 +487,7 @@ Template Name: Horarios Cursos Presenciales
 			<h2>Horario C</h2>
 			<strong><?php the_field( "horario_a_-_horas_copy_copy" ); ?></strong>
 
-				<table style="height: 122px; border-color: #f5f5f5; font-size: 12px; background-color: #efefef;" border="1" width="100%" cellspacing="0">
+				<table style="height: 122px; border-color: #f5f5f5; font-size: 12px; background-color: #efefef;  margin-top: 20px;" border="1" width="100%" cellspacing="0">
 				<tbody>
 				<tr>
 				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>Solo Básico</strong></span></td>
