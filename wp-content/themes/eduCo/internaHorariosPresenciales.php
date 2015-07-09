@@ -27,687 +27,722 @@ Template Name: Horarios Cursos Presenciales
 			<!-- HORARIO A
 			///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 			<h2>Horario A</h2>
-			<strong><?php the_field( "horario_a_-_horas" ); ?></strong>
+			<?php the_field( "horario_a_-_horas" ); ?>
 
-				<table style="height: 122px; border-color: #f5f5f5; font-size: 12px; background-color: #efefef;  margin-top: 20px;" border="1" width="100%" cellspacing="0">
+			<table class="horarios_tabla" border="1" width="100%" cellspacing="0">
 				<tbody>
-				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom:0;"><strong>Solo Básico</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom:0;"><strong>De Básico Hasta Intermedio</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom:0;"><strong>De Básico Hasta Avanzado</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom:0;"><strong>De Básico Hasta Macros</strong></span></td>
-				</tr>
-				<tr>
-				<td style="height: 70px; text-align: left;">   <span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
+					<tr class="title">
+						<td>Solo Básico</td>
+						<td>De Básico Hasta Intermedio</td>
+						<td>De Básico Hasta Avanzado</td>
+						<td>De Básico Hasta Macros</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('solo_basico') ): ?>
+								<ul>
+								<?php while( have_rows('solo_basico') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('solo_basico') ): ?>
+								<ul>
+								<?php while( have_rows('solo_basico') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('de_basico_hasta_intermedio') ): ?>
+								<ul>
+								<?php while( have_rows('de_basico_hasta_intermedio') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('de_basico_hasta_intermedio') ): ?>
+								<ul>
+								<?php while( have_rows('de_basico_hasta_intermedio') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('de_basico_hasta_avanzado') ): ?>
+								<ul>
+								<?php while( have_rows('de_basico_hasta_avanzado') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('de_basico_hasta_avanzado') ): ?>
+								<ul>
+								<?php while( have_rows('de_basico_hasta_avanzado') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('de_basico_hasta_macros') ): ?>
+								<ul>
+								<?php while( have_rows('de_basico_hasta_macros') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('de_basico_hasta_macros') ): ?>
+								<ul>
+								<?php while( have_rows('de_basico_hasta_macros') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+					</tr>
+					<tr class="title">
+						<td></td>
+						<td>Solo Intermedio</td>
+						<td>De Intermedio Hasta Avanzado</td>
+						<td>Solo Intermedio Hasta Macros</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('solo_intermedio') ): ?>
+								<ul>
+								<?php while( have_rows('solo_intermedio') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('solo_intermedio') ): ?>
+								<ul>
+								<?php while( have_rows('solo_intermedio') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('de_intermedio_hasta_avanzado') ): ?>
+								<ul>
+								<?php while( have_rows('de_intermedio_hasta_avanzado') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('de_intermedio_hasta_avanzado') ): ?>
+								<ul>
+								<?php while( have_rows('de_intermedio_hasta_avanzado') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('solo_intermedio_hasta_macros') ): ?>
+								<ul>
+								<?php while( have_rows('solo_intermedio_hasta_macros') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('solo_intermedio_hasta_macros') ): ?>
+								<ul>
+								<?php while( have_rows('solo_intermedio_hasta_macros') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+					</tr>
+					<tr class="title">
+						<td></td>
+						<td></td>
+						<td>Solo Avanzado</td>
+						<td>De Avanzado Hasta Macros </td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('solo_avanzado') ): ?>
+								<ul>
+								<?php while( have_rows('solo_avanzado') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('solo_avanzado') ): ?>
+								<ul>
+								<?php while( have_rows('solo_avanzado') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							
+						</td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('de_avanzado_hasta_macros') ): ?>
+								<ul>
+								<?php while( have_rows('de_avanzado_hasta_macros') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('de_avanzado_hasta_macros') ): ?>
+								<ul>
+								<?php while( have_rows('de_avanzado_hasta_macros') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+					</tr>
+					<tr class="title">
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>Solo Macros</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('solo_macros') ): ?>
+								<ul>
+								<?php while( have_rows('solo_macros') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('solo_macros') ): ?>
+								<ul>
+								<?php while( have_rows('solo_macros') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
 
-					<?php if( have_rows('solo_basico') ): ?>
-						<ul>
-						<?php while( have_rows('solo_basico') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;"> </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
-					<?php if( have_rows('solo_basico') ): ?>
-						<ul>
-						<?php while( have_rows('solo_basico') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-
-				</span></td>
-
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('de_basico_hasta_intermedio') ): ?>
-						<ul>
-						<?php while( have_rows('de_basico_hasta_intermedio') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span>
-				<span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
-					<?php if( have_rows('de_basico_hasta_intermedio') ): ?>
-						<ul>
-						<?php while( have_rows('de_basico_hasta_intermedio') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('de_basico_hasta_avanzado') ): ?>
-						<ul>
-						<?php while( have_rows('de_basico_hasta_avanzado') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span>
-				<span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span> 
-					<?php if( have_rows('de_basico_hasta_avanzado') ): ?>
-						<ul>
-						<?php while( have_rows('de_basico_hasta_avanzado') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('de_basico_hasta_macros') ): ?>
-						<ul>
-						<?php while( have_rows('de_basico_hasta_macros') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span>
-				<span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
-					<?php if( have_rows('de_basico_hasta_macros') ): ?>
-						<ul>
-						<?php while( have_rows('de_basico_hasta_macros') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				</tr>
-				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Intermedio</strong> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> <strong>De Intermedio Hasta Avanzado</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Intermedio Hasta Macros</strong> </span></td>
-				</tr>
-				<tr>
-				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia: </span></span></span><span style="margin-bottom: 0; text-align: left;">
-					<?php if( have_rows('solo_intermedio') ): ?>
-						<ul>
-						<?php while( have_rows('solo_intermedio') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span>
-				<span style="margin-bottom: 0; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza: </span></span></span><span style="margin-bottom: 0; text-align: left;">
-					<?php if( have_rows('solo_intermedio') ): ?>
-						<ul>
-						<?php while( have_rows('solo_intermedio') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('de_intermedio_hasta_avanzado') ): ?>
-						<ul>
-						<?php while( have_rows('de_intermedio_hasta_avanzado') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span>
-				<span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
-					<?php if( have_rows('de_intermedio_hasta_avanzado') ): ?>
-						<ul>
-						<?php while( have_rows('de_intermedio_hasta_avanzado') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('solo_intermedio_hasta_macros') ): ?>
-						<ul>
-						<?php while( have_rows('solo_intermedio_hasta_macros') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;"> </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
-					<?php if( have_rows('solo_intermedio_hasta_macros') ): ?>
-						<ul>
-						<?php while( have_rows('solo_intermedio_hasta_macros') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				</tr>
-				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Avanzado</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>De Avanzado Hasta Macros</strong> </span></td>
-				</tr>
-				<tr>
-				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('solo_avanzado') ): ?>
-						<ul>
-						<?php while( have_rows('solo_avanzado') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span>
-				<span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
-					<?php if( have_rows('solo_avanzado') ): ?>
-						<ul>
-						<?php while( have_rows('solo_avanzado') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('de_avanzado_hasta_macros') ): ?>
-						<ul>
-						<?php while( have_rows('de_avanzado_hasta_macros') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span> 
-					<?php if( have_rows('de_avanzado_hasta_macros') ): ?>
-						<ul>
-						<?php while( have_rows('de_avanzado_hasta_macros') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				</tr>
-				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Macros</strong> </span></td>
-				</tr>
-				<tr>
-				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;">   <span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('solo_macros') ): ?>
-						<ul>
-						<?php while( have_rows('solo_macros') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span> 
-					<?php if( have_rows('solo_macros') ): ?>
-						<ul>
-						<?php while( have_rows('solo_macros') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				</tr>
+						</td>
+					</tr>
 				</tbody>
-				</table>
+			</table>
 
 
 			<!-- HORARIO B
 			///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 			<h2>Horario B</h2>
-			<strong><?php the_field( "horario_a_-_horas_copy" ); ?></strong>
+			<?php the_field( "horario_a_-_horas_copy" ); ?>
 
-				<table style="height: 122px; border-color: #f5f5f5; font-size: 12px; background-color: #efefef;  margin-top: 20px;" border="1" width="100%" cellspacing="0">
+			<table class="horarios_tabla" border="1" width="100%" cellspacing="0">
 				<tbody>
-				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Básico</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>De Básico Hasta Intermedio</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>De Básico Hasta Avanzado</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>De Básico Hasta Macros</strong></span></td>
-				</tr>
-				<tr>
-				<td style="height: 70px; text-align: left;">   <span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
+					<tr class="title">
+						<td>Solo Básico</td>
+						<td>De Básico Hasta Intermedio</td>
+						<td>De Básico Hasta Avanzado</td>
+						<td>De Básico Hasta Macros</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('solo_basico_copy') ): ?>
+								<ul>
+								<?php while( have_rows('solo_basico_copy') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('solo_basico_copy') ): ?>
+								<ul>
+								<?php while( have_rows('solo_basico_copy') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
 
-					<?php if( have_rows('solo_basico_copy') ): ?>
-						<ul>
-						<?php while( have_rows('solo_basico_copy') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
+						</td>
 
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;"> </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
-					<?php if( have_rows('solo_basico_copy') ): ?>
-						<ul>
-						<?php while( have_rows('solo_basico_copy') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-
-				</span></td>
-
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('de_basico_hasta_intermedio_copy') ): ?>
-						<ul>
-						<?php while( have_rows('de_basico_hasta_intermedio_copy') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span>
-				<span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
-					<?php if( have_rows('de_basico_hasta_intermedio_copy') ): ?>
-						<ul>
-						<?php while( have_rows('de_basico_hasta_intermedio_copy') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('de_basico_hasta_avanzado_copy') ): ?>
-						<ul>
-						<?php while( have_rows('de_basico_hasta_avanzado_copy') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span>
-				<span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span> 
-					<?php if( have_rows('de_basico_hasta_avanzado_copy') ): ?>
-						<ul>
-						<?php while( have_rows('de_basico_hasta_avanzado_copy') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('de_basico_hasta_macros_copy') ): ?>
-						<ul>
-						<?php while( have_rows('de_basico_hasta_macros_copy') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span>
-				<span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
-					<?php if( have_rows('de_basico_hasta_macros_copy') ): ?>
-						<ul>
-						<?php while( have_rows('de_basico_hasta_macros_copy') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				</tr>
-				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Intermedio</strong> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> <strong>De Intermedio Hasta Avanzado</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Intermedio Hasta Macros</strong> </span></td>
-				</tr>
-				<tr>
-				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia: </span></span></span><span style="margin-bottom: 0; text-align: left;">
-					<?php if( have_rows('solo_intermedio_copy') ): ?>
-						<ul>
-						<?php while( have_rows('solo_intermedio_copy') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span>
-				<span style="margin-bottom: 0; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza: </span></span></span><span style="margin-bottom: 0; text-align: left;">
-					<?php if( have_rows('solo_intermedio_copy') ): ?>
-						<ul>
-						<?php while( have_rows('solo_intermedio_copy') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('de_intermedio_hasta_avanzado_copy') ): ?>
-						<ul>
-						<?php while( have_rows('de_intermedio_hasta_avanzado_copy') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span>
-				<span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
-					<?php if( have_rows('de_intermedio_hasta_avanzado_copy') ): ?>
-						<ul>
-						<?php while( have_rows('de_intermedio_hasta_avanzado_copy') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('solo_intermedio_hasta_macros_copy') ): ?>
-						<ul>
-						<?php while( have_rows('solo_intermedio_hasta_macros_copy') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;"> </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
-					<?php if( have_rows('solo_intermedio_hasta_macros_copy') ): ?>
-						<ul>
-						<?php while( have_rows('solo_intermedio_hasta_macros_copy') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				</tr>
-				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Avanzado</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>De Avanzado Hasta Macros</strong> </span></td>
-				</tr>
-				<tr>
-				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('solo_avanzado_copy') ): ?>
-						<ul>
-						<?php while( have_rows('solo_avanzado_copy') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span>
-				<span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
-					<?php if( have_rows('solo_avanzado_copy') ): ?>
-						<ul>
-						<?php while( have_rows('solo_avanzado_copy') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('de_avanzado_hasta_macros_copy') ): ?>
-						<ul>
-						<?php while( have_rows('de_avanzado_hasta_macros_copy') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span> 
-					<?php if( have_rows('de_avanzado_hasta_macros_copy') ): ?>
-						<ul>
-						<?php while( have_rows('de_avanzado_hasta_macros_copy') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				</tr>
-				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Macros</strong> </span></td>
-				</tr>
-				<tr>
-				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;">   <span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('solo_macros_copy') ): ?>
-						<ul>
-						<?php while( have_rows('solo_macros_copy') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span> 
-					<?php if( have_rows('solo_macros_copy') ): ?>
-						<ul>
-						<?php while( have_rows('solo_macros_copy') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				</tr>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('de_basico_hasta_intermedio_copy') ): ?>
+								<ul>
+								<?php while( have_rows('de_basico_hasta_intermedio_copy') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('de_basico_hasta_intermedio_copy') ): ?>
+								<ul>
+								<?php while( have_rows('de_basico_hasta_intermedio_copy') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('de_basico_hasta_avanzado_copy') ): ?>
+								<ul>
+								<?php while( have_rows('de_basico_hasta_avanzado_copy') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('de_basico_hasta_avanzado_copy') ): ?>
+								<ul>
+								<?php while( have_rows('de_basico_hasta_avanzado_copy') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('de_basico_hasta_macros_copy') ): ?>
+								<ul>
+								<?php while( have_rows('de_basico_hasta_macros_copy') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('de_basico_hasta_macros_copy') ): ?>
+								<ul>
+								<?php while( have_rows('de_basico_hasta_macros_copy') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+					</tr>
+					<tr class="title">
+						<td></td>
+						<td>Solo Intermedio</td>
+						<td>De Intermedio Hasta Avanzado</td>
+						<td>Solo Intermedio Hasta Macros</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<div class="inicia">Inicia:</div> 
+							<?php if( have_rows('solo_intermedio_copy') ): ?>
+								<ul>
+								<?php while( have_rows('solo_intermedio_copy') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('solo_intermedio_copy') ): ?>
+								<ul>
+								<?php while( have_rows('solo_intermedio_copy') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('de_intermedio_hasta_avanzado_copy') ): ?>
+								<ul>
+								<?php while( have_rows('de_intermedio_hasta_avanzado_copy') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('de_intermedio_hasta_avanzado_copy') ): ?>
+								<ul>
+								<?php while( have_rows('de_intermedio_hasta_avanzado_copy') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('solo_intermedio_hasta_macros_copy') ): ?>
+								<ul>
+								<?php while( have_rows('solo_intermedio_hasta_macros_copy') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('solo_intermedio_hasta_macros_copy') ): ?>
+								<ul>
+								<?php while( have_rows('solo_intermedio_hasta_macros_copy') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+					</tr>
+					<tr class="title">
+						<td></td>
+						<td></td>
+						<td>Solo Avanzado</td>
+						<td>De Avanzado Hasta Macros</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('solo_avanzado_copy') ): ?>
+								<ul>
+								<?php while( have_rows('solo_avanzado_copy') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('solo_avanzado_copy') ): ?>
+								<ul>
+								<?php while( have_rows('solo_avanzado_copy') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('de_avanzado_hasta_macros_copy') ): ?>
+								<ul>
+								<?php while( have_rows('de_avanzado_hasta_macros_copy') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('de_avanzado_hasta_macros_copy') ): ?>
+								<ul>
+								<?php while( have_rows('de_avanzado_hasta_macros_copy') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+					</tr>
+					<tr class="title">
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>Solo Macros</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('solo_macros_copy') ): ?>
+								<ul>
+								<?php while( have_rows('solo_macros_copy') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('solo_macros_copy') ): ?>
+								<ul>
+								<?php while( have_rows('solo_macros_copy') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+					</tr>
 				</tbody>
-				</table>
+			</table>
 
 			<!-- HORARIO C
 			///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 			<h2>Horario C</h2>
-			<strong><?php the_field( "horario_a_-_horas_copy_copy" ); ?></strong>
+			<?php the_field( "horario_a_-_horas_copy_copy" ); ?>
 
-				<table style="height: 122px; border-color: #f5f5f5; font-size: 12px; background-color: #efefef;  margin-top: 20px;" border="1" width="100%" cellspacing="0">
+			<table class="horarios_tabla" border="1" width="100%" cellspacing="0">
 				<tbody>
-				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom:0;"><strong>Solo Básico</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom:0;"><strong>De Básico Hasta Intermedio</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom:0;"><strong>De Básico Hasta Avanzado</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom:0;"><strong>De Básico Hasta Macros</strong></span></td>
-				</tr>
-				<tr>
-				<td style="height: 70px; text-align: left;">   <span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
+					<tr class="title">
+						<td>Solo Básico</td>
+						<td>De Básico Hasta Intermedio</td>
+						<td>De Básico Hasta Avanzado</td>
+						<td>De Básico Hasta Macros</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('solo_basico_copy_copy') ): ?>
+								<ul>
+								<?php while( have_rows('solo_basico_copy_copy') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('solo_basico_copy_copy') ): ?>
+								<ul>
+								<?php while( have_rows('solo_basico_copy_copy') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
 
-					<?php if( have_rows('solo_basico_copy_copy') ): ?>
-						<ul>
-						<?php while( have_rows('solo_basico_copy_copy') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;"> </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
-					<?php if( have_rows('solo_basico_copy_copy') ): ?>
-						<ul>
-						<?php while( have_rows('solo_basico_copy_copy') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-
-				</span></td>
-
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('de_basico_hasta_intermedio_copy_copy') ): ?>
-						<ul>
-						<?php while( have_rows('de_basico_hasta_intermedio_copy_copy') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span>
-				<span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
-					<?php if( have_rows('de_basico_hasta_intermedio_copy_copy') ): ?>
-						<ul>
-						<?php while( have_rows('de_basico_hasta_intermedio_copy_copy') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('de_basico_hasta_avanzado_copy_copy') ): ?>
-						<ul>
-						<?php while( have_rows('de_basico_hasta_avanzado_copy_copy') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span>
-				<span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span> 
-					<?php if( have_rows('de_basico_hasta_avanzado_copy_copy') ): ?>
-						<ul>
-						<?php while( have_rows('de_basico_hasta_avanzado_copy_copy') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('de_basico_hasta_macros_copy_copy') ): ?>
-						<ul>
-						<?php while( have_rows('de_basico_hasta_macros_copy_copy') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span>
-				<span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
-					<?php if( have_rows('de_basico_hasta_macros_copy_copy') ): ?>
-						<ul>
-						<?php while( have_rows('de_basico_hasta_macros_copy_copy') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				</tr>
-				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Intermedio</strong> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> <strong>De Intermedio Hasta Avanzado</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Intermedio Hasta Macros</strong> </span></td>
-				</tr>
-				<tr>
-				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia: </span></span></span><span style="margin-bottom: 0; text-align: left;">
-					<?php if( have_rows('solo_intermedio_copy_copy') ): ?>
-						<ul>
-						<?php while( have_rows('solo_intermedio_copy_copy') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span>
-				<span style="margin-bottom: 0; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza: </span></span></span><span style="margin-bottom: 0; text-align: left;">
-					<?php if( have_rows('solo_intermedio_copy_copy') ): ?>
-						<ul>
-						<?php while( have_rows('solo_intermedio_copy_copy') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('de_intermedio_hasta_avanzado_copy_copy') ): ?>
-						<ul>
-						<?php while( have_rows('de_intermedio_hasta_avanzado_copy_copy') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span>
-				<span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
-					<?php if( have_rows('de_intermedio_hasta_avanzado_copy_copy') ): ?>
-						<ul>
-						<?php while( have_rows('de_intermedio_hasta_avanzado_copy_copy') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('solo_intermedio_hasta_macros_copy_copy') ): ?>
-						<ul>
-						<?php while( have_rows('solo_intermedio_hasta_macros_copy_copy') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;"> </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
-					<?php if( have_rows('solo_intermedio_hasta_macros_copy_copy') ): ?>
-						<ul>
-						<?php while( have_rows('solo_intermedio_hasta_macros_copy_copy') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				</tr>
-				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Avanzado</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>De Avanzado Hasta Macros</strong> </span></td>
-				</tr>
-				<tr>
-				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('solo_avanzado_copy_copy') ): ?>
-						<ul>
-						<?php while( have_rows('solo_avanzado_copy_copy') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span>
-				<span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
-					<?php if( have_rows('solo_avanzado_copy_copy') ): ?>
-						<ul>
-						<?php while( have_rows('solo_avanzado_copy_copy') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('de_avanzado_hasta_macros_copy_copy') ): ?>
-						<ul>
-						<?php while( have_rows('de_avanzado_hasta_macros_copy_copy') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span> 
-					<?php if( have_rows('de_avanzado_hasta_macros_copy_copy') ): ?>
-						<ul>
-						<?php while( have_rows('de_avanzado_hasta_macros_copy_copy') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				</tr>
-				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Macros</strong> </span></td>
-				</tr>
-				<tr>
-				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;">   <span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
-					<?php if( have_rows('solo_macros_copy_copy') ): ?>
-						<ul>
-						<?php while( have_rows('solo_macros_copy_copy') ): the_row();?>
-							<?php the_sub_field('inicia'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span> 
-					<?php if( have_rows('solo_macros_copy_copy') ): ?>
-						<ul>
-						<?php while( have_rows('solo_macros_copy_copy') ): the_row();?>
-							<?php the_sub_field('termina'); ?>
-						<?php endwhile; ?>
-						</ul>
-					<?php endif; ?>
-				</span></td>
-				</tr>
+						</td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('de_basico_hasta_intermedio_copy_copy') ): ?>
+								<ul>
+								<?php while( have_rows('de_basico_hasta_intermedio_copy_copy') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('de_basico_hasta_intermedio_copy_copy') ): ?>
+								<ul>
+								<?php while( have_rows('de_basico_hasta_intermedio_copy_copy') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('de_basico_hasta_avanzado_copy_copy') ): ?>
+								<ul>
+								<?php while( have_rows('de_basico_hasta_avanzado_copy_copy') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('de_basico_hasta_avanzado_copy_copy') ): ?>
+								<ul>
+								<?php while( have_rows('de_basico_hasta_avanzado_copy_copy') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('de_basico_hasta_macros_copy_copy') ): ?>
+								<ul>
+								<?php while( have_rows('de_basico_hasta_macros_copy_copy') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('de_basico_hasta_macros_copy_copy') ): ?>
+								<ul>
+								<?php while( have_rows('de_basico_hasta_macros_copy_copy') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+					</tr>
+					<tr class="title">
+						<td></td>
+						<td>Solo Intermedio</td>
+						<td>De Intermedio Hasta Avanzado</td>
+						<td>Solo Intermedio Hasta Macros</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<div class="inicia">Inicia:</div> 
+							<?php if( have_rows('solo_intermedio_copy_copy') ): ?>
+								<ul>
+								<?php while( have_rows('solo_intermedio_copy_copy') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('solo_intermedio_copy_copy') ): ?>
+								<ul>
+								<?php while( have_rows('solo_intermedio_copy_copy') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('de_intermedio_hasta_avanzado_copy_copy') ): ?>
+								<ul>
+								<?php while( have_rows('de_intermedio_hasta_avanzado_copy_copy') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('de_intermedio_hasta_avanzado_copy_copy') ): ?>
+								<ul>
+								<?php while( have_rows('de_intermedio_hasta_avanzado_copy_copy') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('solo_intermedio_hasta_macros_copy_copy') ): ?>
+								<ul>
+								<?php while( have_rows('solo_intermedio_hasta_macros_copy_copy') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('solo_intermedio_hasta_macros_copy_copy') ): ?>
+								<ul>
+								<?php while( have_rows('solo_intermedio_hasta_macros_copy_copy') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+					</tr>
+					<tr class="title">
+						<td></td>
+						<td></td>
+						<td>Solo Avanzado</td>
+						<td>De Avanzado Hasta Macros</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('solo_avanzado_copy_copy') ): ?>
+								<ul>
+								<?php while( have_rows('solo_avanzado_copy_copy') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('solo_avanzado_copy_copy') ): ?>
+								<ul>
+								<?php while( have_rows('solo_avanzado_copy_copy') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('de_avanzado_hasta_macros_copy_copy') ): ?>
+								<ul>
+								<?php while( have_rows('de_avanzado_hasta_macros_copy_copy') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('de_avanzado_hasta_macros_copy_copy') ): ?>
+								<ul>
+								<?php while( have_rows('de_avanzado_hasta_macros_copy_copy') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+					</tr>
+					<tr class="title">
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>Solo Macros</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td>
+							<div class="inicia">Inicia:</div>
+							<?php if( have_rows('solo_macros_copy_copy') ): ?>
+								<ul>
+								<?php while( have_rows('solo_macros_copy_copy') ): the_row();?>
+									<?php the_sub_field('inicia'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+							<br>
+							<div class="finaliza">Finaliza:</div>
+							<?php if( have_rows('solo_macros_copy_copy') ): ?>
+								<ul>
+								<?php while( have_rows('solo_macros_copy_copy') ): the_row();?>
+									<?php the_sub_field('termina'); ?>
+								<?php endwhile; ?>
+								</ul>
+							<?php endif; ?>
+						</td>
+					</tr>
 				</tbody>
-				</table>
+			</table>
 
 		</div> <!-- End Table -->
 

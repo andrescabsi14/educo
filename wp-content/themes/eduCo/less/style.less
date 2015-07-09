@@ -2583,33 +2583,46 @@ body.popUp{
 
 body.page-template-internaHorariosPresenciales{
 	.main-content{
-		table{
+		table.horarios_tabla{
+			height: 122px;
+			border-color: #f5f5f5;
+			font-size: 12px;
+			background-color: #efefef;
+			margin-top: 20px;
+
 			tr{
+				height: 70px;
+				text-align: left;
+
+				&.title{
+					height: 30px;
+					text-align: center;
+					color: #003b5d;
+					font-weight: bold;
+				}
+
 				td{
 					width: 25%;
+					padding-right: 15px;
+					padding-left: 15px;
+
+					div{
+						display: inline-block;
+
+						&.inicia{
+							color: #008000;
+						}
+						&.finaliza{
+							color: #ff0000;
+						}
+					}
 
 					ul{
-						padding-left: 11px;
+						padding-left: 3px;
 						display: inline-block;
 						margin-bottom: 0;
 					}
-					> span{
-						display: block;
-						margin-bottom: 10px;
-
-						> span{
-							display: inline-block !important;
-						}
-					}
-					span{
-						display: none;
-						&:first-child{
-							display: block;
-						}
-						&:last-child{
-							display: block;
-						}
-					}
+					
 				}
 			}
 		}
