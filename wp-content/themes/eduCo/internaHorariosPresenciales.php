@@ -32,13 +32,13 @@ Template Name: Horarios Cursos Presenciales
 				<table style="height: 122px; border-color: #f5f5f5; font-size: 12px; background-color: #efefef;  margin-top: 20px;" border="1" width="100%" cellspacing="0">
 				<tbody>
 				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>Solo Básico</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>De Básico Hasta Intermedio</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>De Básico Hasta Avanzado</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>De Básico Hasta Macros</strong></span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom:0;"><strong>Solo Básico</strong></span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom:0;"><strong>De Básico Hasta Intermedio</strong></span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom:0;"><strong>De Básico Hasta Avanzado</strong></span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom:0;"><strong>De Básico Hasta Macros</strong></span></td>
 				</tr>
 				<tr>
-				<td style="height: 70px; text-align: left;">   <span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">Inicia:</span>
+				<td style="height: 70px; text-align: left;">   <span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
 
 					<?php if( have_rows('solo_basico') ): ?>
 						<ul>
@@ -48,7 +48,7 @@ Template Name: Horarios Cursos Presenciales
 						</ul>
 					<?php endif; ?>
 
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;"> </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">Finaliza:</span>
+				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;"> </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
 					<?php if( have_rows('solo_basico') ): ?>
 						<ul>
 						<?php while( have_rows('solo_basico') ): the_row();?>
@@ -115,10 +115,10 @@ Template Name: Horarios Cursos Presenciales
 				</span></td>
 				</tr>
 				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>Solo Intermedio</strong> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> <strong>De Intermedio Hasta Avanzado</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>Solo Intermedio Hasta Macros</strong> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Intermedio</strong> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> <strong>De Intermedio Hasta Avanzado</strong></span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Intermedio Hasta Macros</strong> </span></td>
 				</tr>
 				<tr>
 				<td style="height: 70px; text-align: left;"></td>
@@ -166,7 +166,7 @@ Template Name: Horarios Cursos Presenciales
 						<?php endwhile; ?>
 						</ul>
 					<?php endif; ?>
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;"> </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">Finaliza:</span>
+				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;"> </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
 					<?php if( have_rows('solo_intermedio_hasta_macros') ): ?>
 						<ul>
 						<?php while( have_rows('solo_intermedio_hasta_macros') ): the_row();?>
@@ -177,10 +177,10 @@ Template Name: Horarios Cursos Presenciales
 				</span></td>
 				</tr>
 				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>Solo Avanzado</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>De Avanzado Hasta Macros</strong> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Avanzado</strong></span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>De Avanzado Hasta Macros</strong> </span></td>
 				</tr>
 				<tr>
 				<td style="height: 70px; text-align: left;"></td>
@@ -203,7 +203,7 @@ Template Name: Horarios Cursos Presenciales
 						</ul>
 					<?php endif; ?>
 				</span></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">  Inicia:</span>
+				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
 					<?php if( have_rows('de_avanzado_hasta_macros') ): ?>
 						<ul>
 						<?php while( have_rows('de_avanzado_hasta_macros') ): the_row();?>
@@ -211,7 +211,7 @@ Template Name: Horarios Cursos Presenciales
 						<?php endwhile; ?>
 						</ul>
 					<?php endif; ?>
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">Finaliza:</span> 
+				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span> 
 					<?php if( have_rows('de_avanzado_hasta_macros') ): ?>
 						<ul>
 						<?php while( have_rows('de_avanzado_hasta_macros') ): the_row();?>
@@ -222,16 +222,16 @@ Template Name: Horarios Cursos Presenciales
 				</span></td>
 				</tr>
 				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>Solo Macros</strong> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Macros</strong> </span></td>
 				</tr>
 				<tr>
 				<td style="height: 70px; text-align: left;"></td>
 				<td style="height: 70px; text-align: left;"></td>
 				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;">   <span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">Inicia:</span>
+				<td style="height: 70px; text-align: left;">   <span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
 					<?php if( have_rows('solo_macros') ): ?>
 						<ul>
 						<?php while( have_rows('solo_macros') ): the_row();?>
@@ -239,7 +239,7 @@ Template Name: Horarios Cursos Presenciales
 						<?php endwhile; ?>
 						</ul>
 					<?php endif; ?>
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">Finaliza:</span> 
+				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span> 
 					<?php if( have_rows('solo_macros') ): ?>
 						<ul>
 						<?php while( have_rows('solo_macros') ): the_row();?>
@@ -261,13 +261,13 @@ Template Name: Horarios Cursos Presenciales
 				<table style="height: 122px; border-color: #f5f5f5; font-size: 12px; background-color: #efefef;  margin-top: 20px;" border="1" width="100%" cellspacing="0">
 				<tbody>
 				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>Solo Básico</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>De Básico Hasta Intermedio</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>De Básico Hasta Avanzado</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>De Básico Hasta Macros</strong></span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Básico</strong></span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>De Básico Hasta Intermedio</strong></span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>De Básico Hasta Avanzado</strong></span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>De Básico Hasta Macros</strong></span></td>
 				</tr>
 				<tr>
-				<td style="height: 70px; text-align: left;">   <span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">Inicia:</span>
+				<td style="height: 70px; text-align: left;">   <span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
 
 					<?php if( have_rows('solo_basico_copy') ): ?>
 						<ul>
@@ -277,7 +277,7 @@ Template Name: Horarios Cursos Presenciales
 						</ul>
 					<?php endif; ?>
 
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;"> </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">Finaliza:</span>
+				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;"> </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
 					<?php if( have_rows('solo_basico_copy') ): ?>
 						<ul>
 						<?php while( have_rows('solo_basico_copy') ): the_row();?>
@@ -344,10 +344,10 @@ Template Name: Horarios Cursos Presenciales
 				</span></td>
 				</tr>
 				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>Solo Intermedio</strong> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> <strong>De Intermedio Hasta Avanzado</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>Solo Intermedio Hasta Macros</strong> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Intermedio</strong> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> <strong>De Intermedio Hasta Avanzado</strong></span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Intermedio Hasta Macros</strong> </span></td>
 				</tr>
 				<tr>
 				<td style="height: 70px; text-align: left;"></td>
@@ -395,7 +395,7 @@ Template Name: Horarios Cursos Presenciales
 						<?php endwhile; ?>
 						</ul>
 					<?php endif; ?>
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;"> </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">Finaliza:</span>
+				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;"> </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
 					<?php if( have_rows('solo_intermedio_hasta_macros_copy') ): ?>
 						<ul>
 						<?php while( have_rows('solo_intermedio_hasta_macros_copy') ): the_row();?>
@@ -406,10 +406,10 @@ Template Name: Horarios Cursos Presenciales
 				</span></td>
 				</tr>
 				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>Solo Avanzado</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>De Avanzado Hasta Macros</strong> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Avanzado</strong></span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>De Avanzado Hasta Macros</strong> </span></td>
 				</tr>
 				<tr>
 				<td style="height: 70px; text-align: left;"></td>
@@ -432,7 +432,7 @@ Template Name: Horarios Cursos Presenciales
 						</ul>
 					<?php endif; ?>
 				</span></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">  Inicia:</span>
+				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
 					<?php if( have_rows('de_avanzado_hasta_macros_copy') ): ?>
 						<ul>
 						<?php while( have_rows('de_avanzado_hasta_macros_copy') ): the_row();?>
@@ -440,7 +440,7 @@ Template Name: Horarios Cursos Presenciales
 						<?php endwhile; ?>
 						</ul>
 					<?php endif; ?>
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">Finaliza:</span> 
+				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span> 
 					<?php if( have_rows('de_avanzado_hasta_macros_copy') ): ?>
 						<ul>
 						<?php while( have_rows('de_avanzado_hasta_macros_copy') ): the_row();?>
@@ -451,16 +451,16 @@ Template Name: Horarios Cursos Presenciales
 				</span></td>
 				</tr>
 				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>Solo Macros</strong> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Macros</strong> </span></td>
 				</tr>
 				<tr>
 				<td style="height: 70px; text-align: left;"></td>
 				<td style="height: 70px; text-align: left;"></td>
 				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;">   <span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">Inicia:</span>
+				<td style="height: 70px; text-align: left;">   <span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
 					<?php if( have_rows('solo_macros_copy') ): ?>
 						<ul>
 						<?php while( have_rows('solo_macros_copy') ): the_row();?>
@@ -468,7 +468,7 @@ Template Name: Horarios Cursos Presenciales
 						<?php endwhile; ?>
 						</ul>
 					<?php endif; ?>
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">Finaliza:</span> 
+				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span> 
 					<?php if( have_rows('solo_macros_copy') ): ?>
 						<ul>
 						<?php while( have_rows('solo_macros_copy') ): the_row();?>
@@ -489,13 +489,13 @@ Template Name: Horarios Cursos Presenciales
 				<table style="height: 122px; border-color: #f5f5f5; font-size: 12px; background-color: #efefef;  margin-top: 20px;" border="1" width="100%" cellspacing="0">
 				<tbody>
 				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>Solo Básico</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>De Básico Hasta Intermedio</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>De Básico Hasta Avanzado</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>De Básico Hasta Macros</strong></span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom:0;"><strong>Solo Básico</strong></span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom:0;"><strong>De Básico Hasta Intermedio</strong></span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom:0;"><strong>De Básico Hasta Avanzado</strong></span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom:0;"><strong>De Básico Hasta Macros</strong></span></td>
 				</tr>
 				<tr>
-				<td style="height: 70px; text-align: left;">   <span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">Inicia:</span>
+				<td style="height: 70px; text-align: left;">   <span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
 
 					<?php if( have_rows('solo_basico_copy_copy') ): ?>
 						<ul>
@@ -505,7 +505,7 @@ Template Name: Horarios Cursos Presenciales
 						</ul>
 					<?php endif; ?>
 
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;"> </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">Finaliza:</span>
+				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;"> </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
 					<?php if( have_rows('solo_basico_copy_copy') ): ?>
 						<ul>
 						<?php while( have_rows('solo_basico_copy_copy') ): the_row();?>
@@ -572,10 +572,10 @@ Template Name: Horarios Cursos Presenciales
 				</span></td>
 				</tr>
 				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>Solo Intermedio</strong> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> <strong>De Intermedio Hasta Avanzado</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>Solo Intermedio Hasta Macros</strong> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Intermedio</strong> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> <strong>De Intermedio Hasta Avanzado</strong></span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Intermedio Hasta Macros</strong> </span></td>
 				</tr>
 				<tr>
 				<td style="height: 70px; text-align: left;"></td>
@@ -623,7 +623,7 @@ Template Name: Horarios Cursos Presenciales
 						<?php endwhile; ?>
 						</ul>
 					<?php endif; ?>
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;"> </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">Finaliza:</span>
+				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;"> </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span>
 					<?php if( have_rows('solo_intermedio_hasta_macros_copy_copy') ): ?>
 						<ul>
 						<?php while( have_rows('solo_intermedio_hasta_macros_copy_copy') ): the_row();?>
@@ -634,10 +634,10 @@ Template Name: Horarios Cursos Presenciales
 				</span></td>
 				</tr>
 				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>Solo Avanzado</strong></span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>De Avanzado Hasta Macros</strong> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Avanzado</strong></span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>De Avanzado Hasta Macros</strong> </span></td>
 				</tr>
 				<tr>
 				<td style="height: 70px; text-align: left;"></td>
@@ -660,7 +660,7 @@ Template Name: Horarios Cursos Presenciales
 						</ul>
 					<?php endif; ?>
 				</span></td>
-				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">  Inicia:</span>
+				<td style="height: 70px; text-align: left;"><span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
 					<?php if( have_rows('de_avanzado_hasta_macros_copy_copy') ): ?>
 						<ul>
 						<?php while( have_rows('de_avanzado_hasta_macros_copy_copy') ): the_row();?>
@@ -668,7 +668,7 @@ Template Name: Horarios Cursos Presenciales
 						<?php endwhile; ?>
 						</ul>
 					<?php endif; ?>
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">Finaliza:</span> 
+				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span> 
 					<?php if( have_rows('de_avanzado_hasta_macros_copy_copy') ): ?>
 						<ul>
 						<?php while( have_rows('de_avanzado_hasta_macros_copy_copy') ): the_row();?>
@@ -679,16 +679,16 @@ Template Name: Horarios Cursos Presenciales
 				</span></td>
 				</tr>
 				<tr>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"> </span></td>
-				<td style="height: 30px; text-align: center;"><span style="color: #003b5d;"><strong>Solo Macros</strong> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"> </span></td>
+				<td style="height: 30px; text-align: center;"><span style="color: #003b5d; margin-bottom: 0;"><strong>Solo Macros</strong> </span></td>
 				</tr>
 				<tr>
 				<td style="height: 70px; text-align: left;"></td>
 				<td style="height: 70px; text-align: left;"></td>
 				<td style="height: 70px; text-align: left;"></td>
-				<td style="height: 70px; text-align: left;">   <span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">Inicia:</span>
+				<td style="height: 70px; text-align: left;">   <span style="margin-bottom: 0; text-align: left;"><span style="color: #008000;">   Inicia:</span>
 					<?php if( have_rows('solo_macros_copy_copy') ): ?>
 						<ul>
 						<?php while( have_rows('solo_macros_copy_copy') ): the_row();?>
@@ -696,7 +696,7 @@ Template Name: Horarios Cursos Presenciales
 						<?php endwhile; ?>
 						</ul>
 					<?php endif; ?>
-				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">Finaliza:</span> 
+				</span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">  </span></span><span style="margin-bottom: 0; text-align: left;"><span style="color: #ff0000;">   Finaliza:</span> 
 					<?php if( have_rows('solo_macros_copy_copy') ): ?>
 						<ul>
 						<?php while( have_rows('solo_macros_copy_copy') ): the_row();?>

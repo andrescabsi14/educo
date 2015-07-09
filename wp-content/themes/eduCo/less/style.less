@@ -2586,8 +2586,29 @@ body.page-template-internaHorariosPresenciales{
 		table{
 			tr{
 				td{
+					width: 25%;
+
 					ul{
 						padding-left: 11px;
+						display: inline-block;
+						margin-bottom: 0;
+					}
+					> span{
+						display: block;
+						margin-bottom: 10px;
+
+						> span{
+							display: inline-block !important;
+						}
+					}
+					span{
+						display: none;
+						&:first-child{
+							display: block;
+						}
+						&:last-child{
+							display: block;
+						}
 					}
 				}
 			}
