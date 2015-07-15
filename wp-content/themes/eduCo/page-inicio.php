@@ -98,56 +98,6 @@
 	</a>
 </section>
 
-<!-- <section class="popup">
-	<div class="close">X</div>
-	<?php
-		$args = array(
-			'post_type' => 'contenidos',
-			'name' => 'pop-up'
-		);
-		$query = new WP_Query( $args );
-	 ?>
-	<?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
-		<div class="head darken">
-			<h3><?php the_field( "titulo" ); ?></h3>
-			<h5><?php the_field( "subtitulo" ); ?></h5>
-		</div>
-		<div class="content">
-			<div class="left">
-				<div class="visitados">
-					<h4>Estos son los sitios más visitados:</h4>
-					<?php the_field( "enlaces_mas_visitados" ); ?>
-				</div>
-				<div class="ebooks">
-					<h4>Conoce algunos de nuestros Ebooks*</h4>
-					<p>*Tiempo estimado de apertura: 1 a 2 minutos)</p>
-					<a class="ebook1" href="<?php the_field( "link_ebook_1" ); ?>"><div style="background: url('<?php the_field( "ebook_1" ); ?>') no-repeat center center; background-size: cover;"></div></a>
-					<a class="ebook2" href="<?php the_field( "link_ebook_2" ); ?>"><div style="background: url('<?php the_field( "ebook_2" ); ?>') no-repeat center center; background-size: cover;"></div></a>
-					<a class="ebook3" href="<?php the_field( "link_ebook_3" ); ?>"><div style="background: url('<?php the_field( "ebook_3" ); ?>') no-repeat center center; background-size: cover;"></div></a>
-				</div>
-			</div>
-			<div class="right">
-				<div class="ebooks">
-					<a class="ebook1" href="<?php the_field( "link_ebook_1" ); ?>"><div style="background: url('<?php the_field( "ebook_1" ); ?>') no-repeat center center; background-size: cover;"></div></a>
-					<a class="ebook2" href="<?php the_field( "link_ebook_2" ); ?>"><div style="background: url('<?php the_field( "ebook_2" ); ?>') no-repeat center center; background-size: cover;"></div></a>
-					<a class="ebook3" href="<?php the_field( "link_ebook_3" ); ?>"><div style="background: url('<?php the_field( "ebook_3" ); ?>') no-repeat center center; background-size: cover;"></div></a>
-				</div>
-				<div class="form">
-					<?php if ( is_active_sidebar( 'newsletter' ) ) : ?>
-						<?php dynamic_sidebar( 'newsletter' ); ?>
-					<?php endif; ?>
-				</div>
-				<div class="privacy"><?php the_field( "aviso_proteccion_privacidad" ); ?></div>
-			</div>
-		</div>
-	<?php endwhile; ?>
-	<?php else: ?>
-		<p>No se encontró ningún Pop-up.</p>
-	<?php endif; ?>
-	<?php rewind_posts(); ?><?php wp_reset_query(); ?>
-</section>
-<section id="overlay" class="overlay"></section> -->
-
 <?php get_footer(); ?>
 
 
