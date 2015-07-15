@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title><?php bloginfo('name'); ?> | <?php the_title(); ?></title>
+	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/favicon.ico" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
