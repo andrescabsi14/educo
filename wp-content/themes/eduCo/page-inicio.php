@@ -98,7 +98,7 @@
 	</a>
 </section>
 
-<!-- <section class="popup">
+<section class="popup">
 	<div class="close">X</div>
 	<?php
 		$args = array(
@@ -146,7 +146,7 @@
 	<?php endif; ?>
 	<?php rewind_posts(); ?><?php wp_reset_query(); ?>
 </section>
-<section id="overlay" class="overlay"></section> -->
+<section id="overlay" class="overlay"></section>
 
 <?php get_footer(); ?>
 
