@@ -1,0 +1,230 @@
+<manifest alg="2" build="751" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="3840708199"/>
+    <file name="master_maestra-cursos-pres-h.css" crc="519036820" ref="cursos-presenciales-horarios"/>
+    <file name="master_maestra-cursos-virtuales.css" crc="4248379920" ref="compulearning-virtual-tpl:cursos-virtuales-excel"/>
+    <file name="master_maestra-cursos-empresariales.css" crc="3803744864" ref="cursos-presenciales-capacitacion-empresarial-cop:cursos-presenciales-capacitacion-empresarial"/>
+    <file name="master_maestra2.css" crc="3799584929" ref="contactenos"/>
+    <file name="master_maestra-inicio.css" crc="3795063618" ref="nosotros:index"/>
+    <file name="master_maestra-cursos-presenciales.css" crc="4076637612" ref="compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-intermedio-cop:curso-presenciales-excel:compulearning-cursos-presenciales-excel-basico-cop:curso-presenciales-excel-cop:compulearning-presencial-tpl:compulearning-cursos-presenciales-excel-macros-cop"/>
+    <file name="compulearning-cursos-presenciales-excel-avanzado-cop.css" crc="53561625" ref="compulearning-cursos-presenciales-excel-avanzado-cop"/>
+    <file name="iefonts_compulearning-cursos-presenciales-excel-avanzado-cop.css" crc="536866145" ref="compulearning-cursos-presenciales-excel-avanzado-cop"/>
+    <file name="compulearning-cursos-presenciales-excel-intermedio-cop.css" crc="23415133" ref="compulearning-cursos-presenciales-excel-intermedio-cop"/>
+    <file name="iefonts_compulearning-cursos-presenciales-excel-intermedio-cop.css" crc="374812889" ref="compulearning-cursos-presenciales-excel-intermedio-cop"/>
+    <file name="curso-presenciales-excel.css" crc="197624726" ref="curso-presenciales-excel"/>
+    <file name="iefonts_curso-presenciales-excel.css" crc="3842346055" ref="curso-presenciales-excel"/>
+    <file name="compulearning-cursos-presenciales-excel-basico-cop.css" crc="35550428" ref="compulearning-cursos-presenciales-excel-basico-cop"/>
+    <file name="iefonts_compulearning-cursos-presenciales-excel-basico-cop.css" crc="353866969" ref="compulearning-cursos-presenciales-excel-basico-cop"/>
+    <file name="contactenos.css" crc="4287123293" ref="contactenos"/>
+    <file name="iefonts_contactenos.css" crc="452542913" ref="contactenos"/>
+    <file name="cursos-presenciales-capacitacion-empresarial-cop.css" crc="50026025" ref="cursos-presenciales-capacitacion-empresarial-cop"/>
+    <file name="iefonts_cursos-presenciales-capacitacion-empresarial-cop.css" crc="25453276" ref="cursos-presenciales-capacitacion-empresarial-cop"/>
+    <file name="nosotros.css" crc="388966119" ref="nosotros"/>
+    <file name="iefonts_nosotros.css" crc="132074063" ref="nosotros"/>
+    <file name="cursos-presenciales-capacitacion-empresarial.css" crc="123063672" ref="cursos-presenciales-capacitacion-empresarial"/>
+    <file name="iefonts_cursos-presenciales-capacitacion-empresarial.css" crc="523474902" ref="cursos-presenciales-capacitacion-empresarial"/>
+    <file name="curso-presenciales-excel-cop.css" crc="4147079811" ref="curso-presenciales-excel-cop"/>
+    <file name="iefonts_curso-presenciales-excel-cop.css" crc="4095491921" ref="curso-presenciales-excel-cop"/>
+    <file name="compulearning-virtual-tpl.css" crc="3965128596" ref="compulearning-virtual-tpl"/>
+    <file name="iefonts_compulearning-virtual-tpl.css" crc="325221314" ref="compulearning-virtual-tpl"/>
+    <file name="compulearning-presencial-tpl.css" crc="4031897780" ref="compulearning-presencial-tpl"/>
+    <file name="iefonts_compulearning-presencial-tpl.css" crc="3897493280" ref="compulearning-presencial-tpl"/>
+    <file name="cursos-presenciales-horarios.css" crc="309088434" ref="cursos-presenciales-horarios"/>
+    <file name="iefonts_cursos-presenciales-horarios.css" crc="4098231869" ref="cursos-presenciales-horarios"/>
+    <file name="index.css" crc="406130702" ref="index"/>
+    <file name="iefonts_index.css" crc="3910768220" ref="index"/>
+    <file name="compulearning-cursos-presenciales-excel-macros-cop.css" crc="255529640" ref="compulearning-cursos-presenciales-excel-macros-cop"/>
+    <file name="iefonts_compulearning-cursos-presenciales-excel-macros-cop.css" crc="4147450794" ref="compulearning-cursos-presenciales-excel-macros-cop"/>
+    <file name="cursos-virtuales-excel.css" crc="3889961917" ref="cursos-virtuales-excel"/>
+    <file name="iefonts_cursos-virtuales-excel.css" crc="451147208" ref="cursos-virtuales-excel"/>
+  </folder>
+  <folder name="assets">
+    <file name="temario_excel_basico.doc" crc="3895497331" mt="1368030148000"/>
+    <file name="temario_excel_intermedio.doc" crc="3936266834" mt="1368030152000"/>
+    <file name="temario_excel_avanzado.doc" crc="4040397246" mt="1368030144000"/>
+    <file name="temario_macros_en_excel.doc" crc="4186721621" mt="1368030138000"/>
+    <file name="excel-financiero-virtual.docx" crc="158077556" mt="1368030132000"/>
+    <file name="auto-evaluación-nivel-de-excel-(1).xlsx" crc="4133561158" mt="1375460806000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="3828297711" ref="nosotros:contactenos:curso-presenciales-excel:cursos-presenciales-capacitacion-empresarial:cursos-virtuales-excel:index:cursos-presenciales-horarios:curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop:compulearning-presencial-tpl:compulearning-virtual-tpl"/>
+    <file name="museutils.js" crc="3885830161" ref="nosotros:contactenos:curso-presenciales-excel:cursos-presenciales-capacitacion-empresarial:cursos-virtuales-excel:index:cursos-presenciales-horarios:curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop:compulearning-presencial-tpl:compulearning-virtual-tpl"/>
+    <file name="jquery.tobrowserwidth.js" crc="4262060562" ref="nosotros:contactenos:curso-presenciales-excel:cursos-presenciales-capacitacion-empresarial:cursos-virtuales-excel:index:cursos-presenciales-horarios:curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop:compulearning-presencial-tpl:compulearning-virtual-tpl"/>
+    <file name="pie.js" crc="4147615982" ref="nosotros:contactenos:curso-presenciales-excel:cursos-presenciales-capacitacion-empresarial:cursos-virtuales-excel:index:cursos-presenciales-horarios:curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop:compulearning-presencial-tpl:compulearning-virtual-tpl"/>
+    <file name="jquery.musemenu.js" crc="32367222" ref="nosotros:contactenos:curso-presenciales-excel:cursos-presenciales-capacitacion-empresarial:cursos-virtuales-excel:index:cursos-presenciales-horarios:curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop:compulearning-presencial-tpl:compulearning-virtual-tpl"/>
+    <file name="webpro.js" crc="4369767" ref="nosotros:contactenos:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop"/>
+    <file name="musewpslideshow.js" crc="83045620" ref="nosotros:contactenos:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop"/>
+    <file name="jquery.museoverlay.js" crc="3925244142" ref="nosotros:contactenos:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop"/>
+    <file name="touchswipe.js" crc="261777990" ref="nosotros:contactenos:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop"/>
+    <file name="jquery.watch.js" crc="4199601726" ref="nosotros:contactenos:curso-presenciales-excel:cursos-presenciales-capacitacion-empresarial:cursos-virtuales-excel:index:cursos-presenciales-horarios:curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop:compulearning-presencial-tpl:compulearning-virtual-tpl"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3812640551" ref="contactenos:curso-presenciales-excel:cursos-presenciales-capacitacion-empresarial:cursos-virtuales-excel:index:cursos-presenciales-horarios:curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop:compulearning-presencial-tpl"/>
+  </folder>
+  <folder name="images">
+    <file name="maestra-inicio-favicon.ico" crc="26840741" ref="nosotros"/>
+    <file name="light_wool.png" crc="257577779" ref="nosotros:contactenos:curso-presenciales-excel:cursos-presenciales-capacitacion-empresarial:cursos-virtuales-excel:index:cursos-presenciales-horarios:curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop:compulearning-presencial-tpl:compulearning-virtual-tpl"/>
+    <file name="barra-verde.png" crc="4003420310" ref="nosotros:contactenos:curso-presenciales-excel:cursos-presenciales-capacitacion-empresarial:cursos-virtuales-excel:index:cursos-presenciales-horarios:curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop:compulearning-presencial-tpl:compulearning-virtual-tpl"/>
+    <file name="u21230-full.png" crc="3948416180" ref="nosotros:contactenos:curso-presenciales-excel:cursos-presenciales-capacitacion-empresarial:cursos-virtuales-excel:index:cursos-presenciales-horarios:curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop:compulearning-presencial-tpl:compulearning-virtual-tpl"/>
+    <file name="facebook.png" crc="3759152431" ref="nosotros:contactenos:curso-presenciales-excel:cursos-presenciales-capacitacion-empresarial:cursos-virtuales-excel:index:cursos-presenciales-horarios:curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop:compulearning-presencial-tpl:compulearning-virtual-tpl"/>
+    <file name="twitter.png" crc="4180139830" ref="nosotros:contactenos:curso-presenciales-excel:cursos-presenciales-capacitacion-empresarial:cursos-virtuales-excel:index:cursos-presenciales-horarios:curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop:compulearning-presencial-tpl:compulearning-virtual-tpl"/>
+    <file name="linkedin.png" crc="3801678744" ref="nosotros:contactenos:curso-presenciales-excel:cursos-presenciales-capacitacion-empresarial:cursos-virtuales-excel:index:cursos-presenciales-horarios:curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop:compulearning-presencial-tpl:compulearning-virtual-tpl"/>
+    <file name="arrowmenudown.gif" crc="213132104" ref="nosotros:contactenos:curso-presenciales-excel:cursos-presenciales-capacitacion-empresarial:cursos-virtuales-excel:index:cursos-presenciales-horarios:curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop:compulearning-presencial-tpl:compulearning-virtual-tpl"/>
+    <file name="dark_mosaic.png" crc="4290844235" ref="nosotros:contactenos:curso-presenciales-excel:cursos-presenciales-capacitacion-empresarial:cursos-virtuales-excel:index:cursos-presenciales-horarios:curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop:compulearning-presencial-tpl:compulearning-virtual-tpl"/>
+    <file name="compulearningfinallogo2.png" crc="122734767" ref="nosotros:contactenos:curso-presenciales-excel:cursos-presenciales-capacitacion-empresarial:cursos-virtuales-excel:index:cursos-presenciales-horarios:curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop:compulearning-presencial-tpl:compulearning-virtual-tpl"/>
+    <file name="1.jpg" crc="4113731460" ref="nosotros"/>
+    <file name="blank.gif" crc="4208392903" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="2013-04-27 081309514x386.jpg" crc="4163216939" ref="nosotros"/>
+    <file name="2013-04-27 081404514x386.jpg" crc="212419441" ref="nosotros"/>
+    <file name="4573x385.jpg" crc="4074114733" ref="nosotros"/>
+    <file name="loading.gif" crc="3815509949" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:curso-presenciales-excel-cop"/>
+    <file name="youtube.png" crc="3850380901" ref="nosotros:index"/>
+    <file name="tampacargo203x203.jpg" crc="4254060236" ref="nosotros"/>
+    <file name="9.jpg" crc="14535815" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="crear media logo(1).jpg" crc="396805183" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="logocompesar.jpg" crc="3975955982" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="oice.jpg" crc="4208339931" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="supersociedades.jpg" crc="60805447" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="1114.jpg" crc="4203128242" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="ac-nielsen.gif" crc="3893521083" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="avianca.jpg" crc="120045642" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="bancolombia.gif" crc="523014899" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="basf.jpg" crc="3775564560" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="bayer.png" crc="238871259" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="camaradecomercio.jpg" crc="205355076" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="carrefour.jpg" crc="4266385955" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="cemex logo_20120329_101010.jpg" crc="4083639005" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="cesa.jpg" crc="523041402" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="clientes_brinks1.jpg" crc="74942412" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="codensa.jpg" crc="4091214143" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="dhl.jpg" crc="247974768" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="ean.jpg" crc="3760450605" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="ecopetrol.jpg" crc="488452979" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="emgesa_logo.png" crc="3801190961" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="empresaid7471nueva imagen.jpg" crc="3942840114" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="fincomercio.jpg" crc="4051121676" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="gm.jpg" crc="3864870180" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="helm.png" crc="3806150358" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="holcim.jpg" crc="454382174" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="johnson-and-johnson.jpg" crc="16521219" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="liberty.jpg" crc="371696772" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="logo casa luker.jpg" crc="3997658392" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="logo legis.jpg" crc="461724442" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="logo yanbal.png" crc="458159776" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="logo_acerias_big.jpg" crc="4086806123" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="logo_aseguradora_solidaria.gif" crc="283137883" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="logo_eternit.jpg" crc="91794153" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="logo-alpina.jpg" crc="304532573" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="metlen.jpg" crc="507311305" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="oxy.jpg" crc="137935087" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="santafe.jpg" crc="397042942" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="telefonica logo_20120109094549.png" crc="390842831" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="terpel121x121.jpg" crc="240180935" ref="nosotros"/>
+    <file name="uniandinos-logo.jpg" crc="513738426" ref="nosotros:curso-presenciales-excel:cursos-virtuales-excel:index:curso-presenciales-excel-cop"/>
+    <file name="facebook2.png" crc="88662195" ref="nosotros:index"/>
+    <file name="twitter2.png" crc="437685024" ref="nosotros:index"/>
+    <file name="linkedin2.png" crc="4155054697" ref="nosotros:index"/>
+    <file name="maestra2-favicon.ico" crc="102532649" ref="contactenos"/>
+    <file name="indicaciones.png" crc="3785773201" ref="contactenos"/>
+    <file name="maestra-cursos-presenciales-favicon.ico" crc="102532649" ref="curso-presenciales-excel"/>
+    <file name="presenciales.jpg" crc="3995743476" ref="curso-presenciales-excel:cursos-presenciales-horarios:curso-presenciales-excel-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop:compulearning-presencial-tpl"/>
+    <file name="2013-04-27 081404-u1223-fr.jpg" crc="3868522421" ref="curso-presenciales-excel:curso-presenciales-excel-cop"/>
+    <file name="imagenclc1-u2039-fr.jpg" crc="3899664180" ref="curso-presenciales-excel:curso-presenciales-excel-cop"/>
+    <file name="u25717-r-sprite.png" crc="95777334" ref="curso-presenciales-excel:cursos-virtuales-excel:curso-presenciales-excel-cop"/>
+    <file name="presencial-u2054-fr.jpg" crc="3920989481" ref="curso-presenciales-excel:curso-presenciales-excel-cop"/>
+    <file name="2013-04-27 081309-u2057-fr.jpg" crc="4074074243" ref="curso-presenciales-excel:curso-presenciales-excel-cop"/>
+    <file name="imagenclc2-u2042-fr.jpg" crc="4033592778" ref="curso-presenciales-excel:curso-presenciales-excel-cop"/>
+    <file name="slider4compulearning-u2114-fr.jpg" crc="516641307" ref="curso-presenciales-excel:curso-presenciales-excel-cop"/>
+    <file name="u38913-4.png" crc="491450484" ref="curso-presenciales-excel"/>
+    <file name="u38912-4.png" crc="65466799" ref="curso-presenciales-excel"/>
+    <file name="u38911-4.png" crc="4168465881" ref="curso-presenciales-excel"/>
+    <file name="u38910-4.png" crc="58768491" ref="curso-presenciales-excel"/>
+    <file name="creditcardlogos-full.jpg" crc="310435425" ref="curso-presenciales-excel:cursos-virtuales-excel:curso-presenciales-excel-cop"/>
+    <file name="u39465.png" crc="3988957333" ref="curso-presenciales-excel"/>
+    <file name="u39469.png" crc="3988957333" ref="curso-presenciales-excel"/>
+    <file name="tampacargo.jpg" crc="3859984593" ref="curso-presenciales-excel:cursos-virtuales-excel:curso-presenciales-excel-cop"/>
+    <file name="terpel132x132.jpg" crc="133596698" ref="curso-presenciales-excel"/>
+    <file name="u29517-r-sprite.png" crc="4253924747" ref="curso-presenciales-excel:curso-presenciales-excel-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop:compulearning-presencial-tpl"/>
+    <file name="maestra-cursos-empresariales-favicon.ico" crc="102532649" ref="cursos-presenciales-capacitacion-empresarial"/>
+    <file name="empresarialesfin.jpg" crc="416367288" ref="cursos-presenciales-capacitacion-empresarial:cursos-presenciales-capacitacion-empresarial-cop"/>
+    <file name="id-10046950-u1266-fr.jpg" crc="428566046" ref="cursos-presenciales-capacitacion-empresarial:cursos-presenciales-capacitacion-empresarial-cop"/>
+    <file name="id-10066169-u29632-fr.jpg" crc="4150305623" ref="cursos-presenciales-capacitacion-empresarial:cursos-presenciales-capacitacion-empresarial-cop"/>
+    <file name="id-10060141-u29636-fr.jpg" crc="4107630780" ref="cursos-presenciales-capacitacion-empresarial:cursos-presenciales-capacitacion-empresarial-cop"/>
+    <file name="id-100109233-u29639-fr.jpg" crc="311244230" ref="cursos-presenciales-capacitacion-empresarial:cursos-presenciales-capacitacion-empresarial-cop"/>
+    <file name="u29717-4.png" crc="4219279600" ref="cursos-presenciales-capacitacion-empresarial"/>
+    <file name="u29714-4.png" crc="4219279600" ref="cursos-presenciales-capacitacion-empresarial"/>
+    <file name="maestra-cursos-virtuales-favicon.ico" crc="26840741" ref="cursos-virtuales-excel"/>
+    <file name="3.jpg" crc="4100443437" ref="cursos-virtuales-excel:compulearning-virtual-tpl"/>
+    <file name="13mayo5-u2675-fr.jpg" crc="333622759" ref="cursos-virtuales-excel"/>
+    <file name="excelbasicovirtual-u2701-fr.jpg" crc="4049210455" ref="cursos-virtuales-excel"/>
+    <file name="excel intermedio virtual-u38111-fr.jpg" crc="26010327" ref="cursos-virtuales-excel"/>
+    <file name="excel avanzado virtual-u38126-fr.jpg" crc="200327511" ref="cursos-virtuales-excel"/>
+    <file name="macros en excel virtual-u38128-fr.jpg" crc="188143543" ref="cursos-virtuales-excel"/>
+    <file name="excel financiero virtual-u24722-fr.jpg" crc="3904926982" ref="cursos-virtuales-excel"/>
+    <file name="u2726_states.png" crc="413671530" ref="cursos-virtuales-excel"/>
+    <file name="u2726_states-a.png" crc="413671530" ref="cursos-virtuales-excel"/>
+    <file name="u38660-4.png" crc="187629891" ref="cursos-virtuales-excel"/>
+    <file name="u38705-4.png" crc="325691265" ref="cursos-virtuales-excel"/>
+    <file name="u38653-4.png" crc="3919341993" ref="cursos-virtuales-excel"/>
+    <file name="u38713-4.png" crc="11971540" ref="cursos-virtuales-excel"/>
+    <file name="u39413.png" crc="4085444917" ref="cursos-virtuales-excel"/>
+    <file name="u38699-4.png" crc="471977007" ref="cursos-virtuales-excel"/>
+    <file name="u38691-5.png" crc="3995313639" ref="cursos-virtuales-excel"/>
+    <file name="compulearning--capacitación-profesional-en-excel-para-no-programadores-favicon.ico" crc="102532649" ref="index"/>
+    <file name="slider1compulearning.jpg" crc="445600761" ref="index"/>
+    <file name="slider2compulearningdef.jpg" crc="158711742" ref="index"/>
+    <file name="4-u18480-fr.jpg" crc="4062683057" ref="index"/>
+    <file name="slider4compulearning.jpg" crc="3904585822" ref="index"/>
+    <file name="slider5ffffff.jpg" crc="4172858144" ref="index"/>
+    <file name="2013-04-27 081423-u18552-fr.jpg" crc="4081961456" ref="index"/>
+    <file name="13mayo-u18555-fr.jpg" crc="21092356" ref="index"/>
+    <file name="u18429-4.png" crc="4219279600" ref="index"/>
+    <file name="u18499_states.png" crc="4118556312" ref="index"/>
+    <file name="u18499_states-a.png" crc="4219279600" ref="index"/>
+    <file name="bancodebogota-u18452-fr.png" crc="514490334" ref="index"/>
+    <file name="avatar-u18456-fr.jpg" crc="258646587" ref="index"/>
+    <file name="terpel-u18464-fr.jpg" crc="4275683895" ref="index"/>
+    <file name="maestra-cursos-pres-h-favicon.ico" crc="3901012089" ref="cursos-presenciales-horarios"/>
+    <file name="compulearning--cursos-presenciales-excel-cop-favicon.ico" crc="300416405" ref="curso-presenciales-excel-cop"/>
+    <file name="u40496-4.png" crc="491450484" ref="curso-presenciales-excel-cop"/>
+    <file name="u40521-4.png" crc="65466799" ref="curso-presenciales-excel-cop"/>
+    <file name="u40818-4.png" crc="4168465881" ref="curso-presenciales-excel-cop"/>
+    <file name="u40575-4.png" crc="58768491" ref="curso-presenciales-excel-cop"/>
+    <file name="u40435.png" crc="3988957333" ref="curso-presenciales-excel-cop"/>
+    <file name="u40840.png" crc="3988957333" ref="curso-presenciales-excel-cop"/>
+    <file name="popupgray.png" crc="3899950259" ref="curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop"/>
+    <file name="u41955-full.png" crc="204819935" ref="curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop"/>
+    <file name="libro-excelintermediol-u41975-fr.png" crc="4133942232" ref="curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop"/>
+    <file name="libro-excel-avanzado-u41976-fr.png" crc="4206257887" ref="curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop"/>
+    <file name="libro-excel-financiero-u41977-fr.png" crc="4137670130" ref="curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop"/>
+    <file name="libro-excelintermediol-u41965-fr.png" crc="4290139351" ref="curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop"/>
+    <file name="libro-excel-avanzado-u41967-fr.png" crc="161629894" ref="curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop"/>
+    <file name="libro-excel-financiero-u41966-fr.png" crc="72069360" ref="curso-presenciales-excel-cop:cursos-presenciales-capacitacion-empresarial-cop:compulearning-cursos-presenciales-excel-basico-cop:compulearning-cursos-presenciales-excel-intermedio-cop:compulearning-cursos-presenciales-excel-avanzado-cop:compulearning-cursos-presenciales-excel-macros-cop"/>
+    <file name="compulearning--cursos-presenciales---capacitación-empresarial-cop-favicon.ico" crc="30324542" ref="cursos-presenciales-capacitacion-empresarial-cop"/>
+    <file name="u40974-4.png" crc="4219279600" ref="cursos-presenciales-capacitacion-empresarial-cop"/>
+    <file name="u40985-4.png" crc="4219279600" ref="cursos-presenciales-capacitacion-empresarial-cop"/>
+    <file name="compulearning--cursos-presenciales---excel-basico-cop-favicon.ico" crc="3901012089" ref="compulearning-cursos-presenciales-excel-basico-cop"/>
+    <file name="popupimagenesbasico.jpg" crc="389964161" ref="compulearning-cursos-presenciales-excel-basico-cop"/>
+    <file name="compulearning--cursos-presenciales---excel-intermedio-cop-favicon.ico" crc="3901012089" ref="compulearning-cursos-presenciales-excel-intermedio-cop"/>
+    <file name="popupimagenesintermedio.jpg" crc="3803098714" ref="compulearning-cursos-presenciales-excel-intermedio-cop"/>
+    <file name="compulearning--cursos-presenciales---excel-avanzado-cop-favicon.ico" crc="3901012089" ref="compulearning-cursos-presenciales-excel-avanzado-cop"/>
+    <file name="popupimagenesavanzado.jpg" crc="4076495909" ref="compulearning-cursos-presenciales-excel-avanzado-cop"/>
+    <file name="compulearning--cursos-presenciales---excel-macros-cop-favicon.ico" crc="3901012089" ref="compulearning-cursos-presenciales-excel-macros-cop"/>
+    <file name="popupimagenesmacros.jpg" crc="117462349" ref="compulearning-cursos-presenciales-excel-macros-cop"/>
+    <file name="compulearning-presencial-tpl-favicon.ico" crc="513357329" ref="compulearning-presencial-tpl"/>
+    <file name="compulearning-virtual-tpl-favicon.ico" crc="3901012089" ref="compulearning-virtual-tpl"/>
+  </folder>
+  <file name="nosotros.html" crc="4220640914" mt="1375804642831"/>
+  <file name="contactenos.html" crc="3947400095" mt="1375804631394"/>
+  <file name="curso-presenciales-excel.html" crc="431420979" mt="1376409988722"/>
+  <file name="cursos-presenciales-capacitacion-empresarial.html" crc="126053857" mt="1375804788014"/>
+  <file name="cursos-virtuales-excel.html" crc="4235614555" mt="1375988857954"/>
+  <file name="index.html" crc="206930548" mt="1375988756352"/>
+  <file name="cursos-presenciales-horarios.html" crc="272052123" mt="1375804865824"/>
+  <file name="curso-presenciales-excel-cop.html" crc="3969143422" mt="1376423225169"/>
+  <file name="cursos-presenciales-capacitacion-empresarial-cop.html" crc="4172921757" mt="1376423373993"/>
+  <file name="compulearning-cursos-presenciales-excel-basico-cop.html" crc="63840870" mt="1376423392285"/>
+  <file name="compulearning-cursos-presenciales-excel-intermedio-cop.html" crc="2610774" mt="1376423399855"/>
+  <file name="compulearning-cursos-presenciales-excel-avanzado-cop.html" crc="191491703" mt="1376423407459"/>
+  <file name="compulearning-cursos-presenciales-excel-macros-cop.html" crc="450745650" mt="1376423414654"/>
+  <file name="compulearning-presencial-tpl.html" crc="42024838" mt="1376424350673"/>
+  <file name="compulearning-virtual-tpl.html" crc="4184728739" mt="1376424361089"/>
+</manifest>
