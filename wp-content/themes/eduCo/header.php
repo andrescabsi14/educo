@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
+	<meta name="description" content="<?php $yoast_meta = get_post_meta($post->ID, '_yoast_wpseo_metadesc', true); if ($yoast_meta) {echo $yoast_meta;}?>">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/favicon.ico" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
